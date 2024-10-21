@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link untuk Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Link untuk Lavishly Yours -->
+    <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Wedding Invitation</title>
+</head>
+
+<body>
+    <nav>
+        <div class="judul"><h1>Wedding</h1></div>
+        <a href="#main" style="color: white;">Main</a>
+        <a href="#location" style="color: white;">Location</a>
+        <a href="#confirmation" style="color: white;">Confirmation</a>
+        <a href="pw.html" style="color: white;">Prewedding</a>
+        <a href="gifts.html" style="color: white;">Gifts</a>
+    </nav>
+    
+    <div id="main">
+        <h1 class="nama align="center">
+            <span class="nm">Maryanti Hong</span> <br> 
+            <span class="simbol">&</span> <br>
+            <span class="nm">Moch Justin Kheil</span>
+        </h1>
+    </div>
+
+    <div class="date">
+        <h1 align="center">Saturday, 26th October 2024</h1>
+    </div>
+
+    <div class="par">
+        <h2>We request the pleasure of your company at the ceremony of their wedding</h2>
+        <p>With joyful hearts and grateful spirits, we, Maryanti and Justin, together with our families, invite you to share in the celebration of our love. As we embark on this beautiful journey of marriage, we would be honored to have you by our side. Join us as we exchange vows and promise to support and cherish each other in the presence of our loved ones. Let us gather together to create unforgettable memories, filled with love, laughter, and joy. We look forward to celebrating this special day with you!</p>
+    </div>
+
+    <div class="loct" id="location">
+        <h2>Save the location now!</h2>
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.476912162178!2d110.19950527500336!3d-7.631749292383959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a8c4daaaaaaab%3A0xfa5e4dadf7e86baa!2sAmanjiwo!5e0!3m2!1sid!2sid!4v1729434065736!5m2!1sid!2sid" style="border:0; width: 500px; height: 500px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </div>
+
+    <div class="confirmation" id="confirmation">
+        <h1>Dear our lovely guest, kindly let us know if you will be joining us on our wedding day.</h1>
+        <h2>Date : 26th October 2024
+            <br> Time : 12 PM
+            <br> Place : Amanjiwo Resort
+        </h2>
+        <form class="form-a">
+            <label for="Nama">Name :</label>
+            <input type="text" name="Name" id="Nama" required><br>
+
+            <label for="attend">Will you attend?</label> <br>
+            <div class="radio-container">
+                <input type="radio" id="yes" name="attendance" value="yes" required>
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="attendance" value="no">
+                <label for="no">No</label><br>
+            </div>
+
+            <label for="notes">Any special requests or notes:</label><br>
+            <textarea id="notes" name="notes"></textarea><br>
+
+            <button type="submit" class="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

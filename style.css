@@ -1,0 +1,232 @@
+* {
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+html {
+    margin: 30px;
+    background: #FEF9D9;
+    font-family: Poppins;
+    background-image: url(pict/5.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+nav {
+    background-color: #a2c7ef;
+    font-family: poppins;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 23px;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+}   
+
+.pict {
+    width: 30px;
+}
+
+.wedding {
+    width: 450px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+nav a {
+    background-color: inherit;
+    color: black;
+    padding: 14px 20px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.3s ease;
+    display: block;
+    text-align: center;
+}
+    
+nav a:hover {
+    background-color: rgb(57, 57, 57);
+    color: #6E6E6DFF;
+    transform: scale(1.2);
+ }
+    
+.req {
+    text-align: center;
+    background-color: #a2c7ef;
+}
+
+.nama {
+    text-align: center;
+    align-items: center;
+    font-family: Norican;
+    font-size: 70px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8);
+    margin-left: 20px; 
+    margin-left: 30px;
+}
+
+.date {
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: #a2c7ef;
+    border-radius: 20px;
+    font-family: poppins;
+    padding: 10px;
+    color: white;
+    text-align: justify;
+    
+}
+
+.par {
+    padding: 30px;
+    background-color: azure;
+    border-radius: 20px;
+    margin: 30px;
+    font-size: 20px;
+    color: #5c6e80;
+}
+
+.loct {
+    padding: 1px;
+    padding-bottom: 45px;
+    margin: 0 auto;
+    margin-left: 21%;
+    margin-right: 21%;
+    border-radius: 20px;
+    background-color: #a2c7ef;
+    align-items: center;
+    place-content: center;
+    display: grid;
+    color: white;
+}
+
+.iframe {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.confirmation {
+    padding: 40px;
+    background-color: #8EACCD;
+    margin: 90px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: poppins;
+}
+
+.confirmation input[type="text"],
+.confirmation textarea {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+}
+
+.confirmation .radio-container {
+    margin: 10px 0;
+}
+
+.confirmation .radio-container input[type="radio"] {
+    margin-right: 10px;
+}
+
+.confirmation button {
+    background-color: #a2c7ef;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.confirmation button:hover {
+    background-color: #5c6e80;
+}
+
+.submit {
+    font-size: 20px;
+    font-family: poppins;
+}
+
+.form-a {
+    font-size: 23px;
+}
+
+.prewedd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img {
+    width: 550px;
+    border-radius: 10px;
+    background-color: #5c6e80;
+    padding: 60px;
+    margin: 50px;
+}
+
+.story {
+    padding: 30px;
+    background-color: azure;
+    color: #5c6e80;
+    border-radius: 20px;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.pad {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.bank-details {
+    background-color: #8EACCD;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.bank-details h2 {
+    margin: 0;
+}
+
+.bank-details input {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+}
+
+.text {
+    margin: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+    border-radius: 20px;
+}
+
+.audio {
+    display: none;
+}
